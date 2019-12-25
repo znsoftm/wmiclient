@@ -1,7 +1,9 @@
 # wmiclient
 wmi 1.3.16 source code for linux
 
-This is derived from https://askubuntu.com/questions/885407/installing-wmic-on-ubuntu-16-04-lts I modified its code to be compatible with new gnutls.
+This is derived from https://askubuntu.com/questions/885407/installing-wmic-on-ubuntu-16-04-lts 
+
+I modified its code to be compatible with new gnutls.
 
 for it, you need to do just as follow: (passwd on ubuntu 18.04)
 
