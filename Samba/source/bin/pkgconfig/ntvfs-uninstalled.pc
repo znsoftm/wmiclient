@@ -1,0 +1,11 @@
+prefix=bin/
+includedir=ntvfs
+modulesdir=${prefix}/modules/ntvfs
+
+Name: ntvfs
+Description: Virtual File System with NTFS semantics
+Requires.private: ndr_nfs4acl cli_smb ndr_xattr ndr_xattr 
+Version: 0.0.1
+Libs: -Lbin/shared -Lbin/static -lntvfs
+Libs.private: -lreplace -lauth -ldcerpc_common -lreplace -lreplace -lsamdb -lcli_raw -lreplace -lreplace -lreplace -lreplace -lreplace -lwrap_xattr -lntvfs_common -lmessaging -lreplace -lsamdb -lreplace -lreplace 
+Cflags: -I${includedir} -I. -Iinclude -Ilib -Ilib/replace -DHAVE_IMMEDIATE_STRUCTURES=1

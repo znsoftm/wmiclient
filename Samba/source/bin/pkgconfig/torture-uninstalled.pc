@@ -1,0 +1,12 @@
+prefix=bin/
+includedir=torture
+modulesdir=${prefix}/modules/torture
+
+Name: torture
+Description: Samba torture (test) suite
+Requires: samba-config talloc 
+Requires.private: cli_smb ndr_table rpc_ndr_unixinfo rpc_ndr_samr rpc_ndr_winreg rpc_ndr_initshutdown rpc_ndr_oxidresolver rpc_ndr_eventlog rpc_ndr_echo rpc_ndr_svcctl rpc_ndr_mgmt rpc_ndr_atsvc rpc_ndr_drsuapi rpc_ndr_lsa rpc_ndr_dfs rpc_ndr_spoolss rpc_ndr_srvsvc rpc_ndr_wkssvc rpc_ndr_rot rpc_ndr_dssetup rpc_ndr_remact rpc_ndr_oxidresolver samba-net cli_cldap cli_smb cli_smb gensec samba3 rpc_ndr_echo cli_smb registry cli_smb cli_wrepl cli_smb samba-config rpc_ndr_samr rpc_ndr_lsa rpc_ndr_oxidresolver ndr_dcom rpc_ndr_remact ndr_table rpc_ndr_winreg dcom wmi samba-net cli_smb 
+Version: 0.0.1
+Libs: -Lbin/shared -Lbin/static -ltorture
+Libs.private: -lsamba-util -lreplace -lreplace -ltorture_util -lrpc_ndr_netlogon -lrpc_ndr_epmapper -lwb_helper -lcli_auth -lpopt_credentials -lreplace -ltorture_util -lcli_ldap -lsamdb -lpopt_credentials -lreplace -lcli_lsa -lcli_smb_composite -lpopt_credentials -lreplace -ltorture_util -lcli_smb2 -lpopt_credentials -lreplace -lauth -lkerberos -lpopt_credentials -lreplace -lmessaging -liconv -lcrypto -lpopt_credentials -ltorture_util -lreplace -lcli_nbt -lcli_dgram -lreplace -lndr_misc -lsamba-util -ldynconfig -lpopt_samba -lpopt_credentials -lpopt -lreplace -lpopt_credentials -lreplace -lreplace -ltorture_util -lpopt_credentials -ltorture_util -lcli_raw -lreplace 
+Cflags: -I${includedir} -I. -Iinclude -Ilib -Ilib/replace -DHAVE_IMMEDIATE_STRUCTURES=1
