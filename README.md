@@ -18,6 +18,11 @@ git clone https://github.com/znsoftm/wmiclient.git
 
 cd wmiclient
 
+cd Samba/source
+
+chmod +x *.sh
+
+cd ../..
 
 export ZENHOME=/usr 
 
