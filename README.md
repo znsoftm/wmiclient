@@ -1,4 +1,4 @@
-# wmiclient
+# wmiclient /wmic for linux 
 wmi 1.3.16 source code for linux
 
 This is derived from https://askubuntu.com/questions/885407/installing-wmic-on-ubuntu-16-04-lts 
