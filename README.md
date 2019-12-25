@@ -12,6 +12,8 @@ For to get a bunch of binary files, you need to do just as follow: (passwd on ub
 ===================================command lines========================
 
 apt install autoconf gcc libdatetime-perl make build-essential g++ python-dev 
+
+
 git clone http:///xxxxx
 
 cd wmi-1.3.16/
