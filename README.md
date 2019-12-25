@@ -16,7 +16,7 @@ apt install autoconf gcc libdatetime-perl make build-essential g++ python-dev
 
 git clone https://github.com/znsoftm/wmiclient.git
 
-cd wmi-1.3.16/
+cd wmiclient
 
 
 export ZENHOME=/usr 
