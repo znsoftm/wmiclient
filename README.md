@@ -26,6 +26,8 @@ chmod +x ./configure
 
 chmod +x heimdal_build/*.sh
 
+chmod +x script/*.sh
+
 cd ../..
 
 export ZENHOME=/usr 
