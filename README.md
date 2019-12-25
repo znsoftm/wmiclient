@@ -9,7 +9,7 @@ I modified its code to be compatible with new gnutls.
 
 For to get a bunch of binary files, you need to do just as follow: (passwd on ubuntu 18.04)
 
-==========================================command lines=========================================
+===================================command lines========================
 
 apt install autoconf gcc libdatetime-perl make build-essential g++ python-dev 
 git clone http:///xxxxx
