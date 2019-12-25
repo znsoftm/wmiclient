@@ -22,6 +22,8 @@ cd Samba/source
 
 chmod +x *.sh
 
+chmod +x ./configure
+
 cd ../..
 
 export ZENHOME=/usr 
