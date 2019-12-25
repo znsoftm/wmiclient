@@ -7,7 +7,7 @@ Original package is from  http://www.opsview.com/sites/default/files/wmi-1.3.16.
 
 I modified its code to be compatible with new gnutls.
 
-For to get a bunch of binary files, you need to do just as follow: (passwd on ubuntu 18.04)
+For to get a bunch of binary files, you need to do just as follow: (passed on ubuntu 18.04)
 
 ===================================command lines========================
 
