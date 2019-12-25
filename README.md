@@ -20,5 +20,8 @@ cd wmiclient
 
 
 export ZENHOME=/usr 
+
 make "CPP=gcc -E -ffreestanding" 
+
+
 cp Samba/source/bin/wmic /bin
